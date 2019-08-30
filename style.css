@@ -26,9 +26,7 @@ img {
 }
 
 
-
 /* Superinfo */
-
 .superinfo-bg {
 	background-color: #122ab2;
 	color: white;
@@ -50,4 +48,45 @@ img {
 
 .superinfo a {
 	color: #fff;
+}
+
+
+/* Menu */
+.menu-bg {
+	background-color: #2c70ff
+}
+
+.menu {
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding: 15px 0;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.menu a {
+	color: white;
+}
+
+.menu-logo a {
+	font-size: 2.25em;
+	font-weight: bold;
+	margin: 0 10px;
+}
+
+.menu-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-nav a {
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+}
+
+.menu-nav a:hover{
+	color: #122ab2;
 }
